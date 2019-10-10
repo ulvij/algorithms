@@ -1,6 +1,6 @@
-# 1. Two Sum 
+# Two Sum 
 
-__Dificulties__ : Easy
+__Dificulty__ : Easy
 
 __Link__ : https://leetcode.com/problems/two-sum/
 
@@ -9,7 +9,7 @@ Given an array of integers, return __indices__ of the two numbers such that they
 
 You may assume that each input would have __exactly__ one solution, and you may not use the same element twice.
 
-## Example:
+#### Example:
 
 ```
 Given nums = [2, 7, 11, 15], target = 9,
@@ -18,7 +18,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-#### SOLUTION
+## SOLUTION
 
 ```kotlin
 fun twoSum(nums: IntArray, target: Int): IntArray {
