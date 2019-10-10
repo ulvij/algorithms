@@ -1,4 +1,4 @@
-# 4. Median of Two Sorted Arrays
+# Median of Two Sorted Arrays
 
 **Dificulties** : Hard
 
@@ -10,7 +10,7 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 You may assume __nums1__ and __nums2__ cannot be both empty.
 
-## Example 1:
+#### Example 1:
 
 ```
 nums1 = [1, 3]
@@ -20,7 +20,7 @@ The median is 2.0
 ```
 
 
-## Example 2:
+#### Example 2:
 
 ```
 nums1 = [1, 2]
@@ -30,7 +30,7 @@ The median is (2 + 3)/2 = 2.5
 ```
 
 
-#### SOLUTION
+## SOLUTION
 
 ```kotlin
 fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
