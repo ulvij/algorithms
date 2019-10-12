@@ -21,8 +21,6 @@ Input: "cbbd"
 Output: "bb"
 ```
 
-#### Example 3:
-
 ## SOLUTION
 
 ```kotlin
