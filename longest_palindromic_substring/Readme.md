@@ -21,7 +21,7 @@ Input: "cbbd"
 Output: "bb"
 ```
 
-## SOLUTION
+## SOLUTION IN KOTLIN
 
 ```kotlin
 fun longestPalindrome(s: String): String {

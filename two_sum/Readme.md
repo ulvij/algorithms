@@ -18,7 +18,7 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
 
-## SOLUTION
+## SOLUTION IN KOTLIN
 
 ```kotlin
 fun twoSum(nums: IntArray, target: Int): IntArray {

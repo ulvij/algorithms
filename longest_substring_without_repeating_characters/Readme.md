@@ -31,7 +31,7 @@ Explanation: The answer is "wke", with the length of 3. Note that the answer mus
 ```
 
 
-## SOLUTION
+## SOLUTION IN KOTLIN
 
 ```kotlin
 fun lengthOfLongestSubstring(s: String): Int {

@@ -30,7 +30,7 @@ The median is (2 + 3)/2 = 2.5
 ```
 
 
-## SOLUTION
+## SOLUTION IN KOTLIN
 
 ```kotlin
 fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
