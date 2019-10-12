@@ -35,7 +35,7 @@ Assume we are dealing with an environment which could only store integers within
 ```
 
 
-## SOLUTION
+## SOLUTION IN KOTLIN
 
 ```kotlin
 fun reverse(x: Int): Int {
