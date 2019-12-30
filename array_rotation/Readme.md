@@ -49,8 +49,8 @@ fun rotate(nums: IntArray, k: Int): Unit {
 }
 ```
 Complexity Analysis
-- Time complexity : O(n)O(n). One pass is used to put the numbers in the new array. And another pass to copy the new array to the original one.
-- Space complexity : O(n)O(n). Another array of the same size is used.
+- Time complexity : O(n). One pass is used to put the numbers in the new array. And another pass to copy the new array to the original one.
+- Space complexity : O(n). Another array of the same size is used.
 
 ### 2. Using Cyclic Replacements
 ```kotlin
@@ -76,8 +76,8 @@ fun rotate(nums: IntArray, k: Int): Unit {
 }
 ```
 Complexity Analysis
-- Time complexity : O(n)O(n). Only one pass is used.
-- Space complexity : O(1)O(1). Constant extra space is used.
+- Time complexity : O(n). Only one pass is used.
+- Space complexity : O(1). Constant extra space is used.
 
 
 ### 3. Using Reverse
@@ -103,5 +103,5 @@ fun reverse(nums: IntArray, start: Int, end: Int) {
 }
 ```
 Complexity Analysis
-- Time complexity : O(n)O(n). nn elements are reversed a total of three times.
-- Space complexity : O(1)O(1). No extra space is used.
+- Time complexity : O(n). nn elements are reversed a total of three times.
+- Space complexity : O(1). No extra space is used.
