@@ -55,8 +55,6 @@ __N=6__, and our non-decreasing list is __{1,2,2,3,3,4}__. The values __2__ and 
 ## SOLUTION IN JAVA
 
 ```java
-package hackerrank.news;
-
 import java.util.*;
 
 public class More_Linked_Lists {
