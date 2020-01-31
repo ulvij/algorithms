@@ -1,78 +1,70 @@
-# RegEx, Patterns, and Intro to Databases
-      
-**Dificulty** : Medium
+# Designer PDF Viewer
 
-**Link** : https://www.hackerrank.com/challenges/30-regex-patterns/problem
+**Dificulty** : Easy
 
-__Objective__
+**Link** : https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
 
-Today we're learning about running time! Check out the Tutorial tab for learning materials and an instructional video!
+When you select a contiguous block of text in a PDF viewer, the selection is highlighted with a blue rectangle. In this PDF viewer, each word is highlighted independently.
 
-__Task__
+In this challenge, you will be given a list of letter heights in the alphabet and a string. Using the letter heights given, determine the area of the rectangle highlight in __(mm)^2__ assuming all letters are __1 mm__ wide.
 
-Consider a database table, Emails, which has the attributes First Name and Email ID. Given __N__ rows of data simulating the Emails table, print an alphabetically-ordered list of people whose email address ends in __@gmail.com__.
+For example, the highlighted __word = torn__. Assume the heights of the letters are __t = 2, o = 1, r = 1__ and __n = 1__. The tallest letter is __2__ high and there are __4__ letters. The hightlighted area will be __2 * 4 = 8 (mm)^2__ so the answer is __8__.
 
-__Note:__ If possible, try to come up with a __O(sqrt(n))__  primality algorithm, or see what sort of optimizations you come up with for an __O(n)__ algorithm. Be sure to check out the Editorial after submitting your code!
+__Function Description__
+
+Complete the designerPdfViewer function in the editor below. It should return an integer representing the size of the highlighted area.
+
+designerPdfViewer has the following parameter(s):
+
+- h: an array of integers representing the heights of each letter
+- word: a string
 
 __Input Format__
 
-The first line contains an integer,__N__ , total number of rows in the table.
-Each of the __N__ subsequent lines contains __2__ space-separated strings denoting a person's first name and email ID, respectively.
+The first line contains __26__ space-separated integers describing the respective heights of each consecutive lowercase English letter, ascii[a-z].
+The second line contains a single word, consisting of lowercase English alphabetic letters.
 
 __Constraints__
--  2 ≤ N ≤ 30
--  Each of the first names consists of lower case letters __[a-z]__ only.
--  Each of the email IDs consists of lower case letters , __[a-z],@__ and __.__ only.
--  The length of the first name is no longer than 20.
--  The length of the email ID is no longer than 50.
+-  1 ≤ h[?] ≤ 7, where ? is English lowercase letter
+-  __word__ contains no more than __10__ letters
 
 __Output Format__
 
-Print an alphabetically-ordered list of first names for every user with a gmail account. Each name must be printed on a new line.
+Print a single integer denoting the area in __(mm)^2__ of highlighted rectangle when the given word is selected. Do not print units of measure.
 
 #### Sample Input:
 
 ```
-6
-riya riya@gmail.com
-julia julia@julia.me
-julia sjulia@gmail.com
-julia julia@gmail.com
-samantha samantha@gmail.com
-tanya tanya@gmail.com
+1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
+abc
 ```
 
 #### Sample Output:
 
 ```
-julia
-julia
-riya
-samantha
-tanya
+9
 ```
+
+#### Explanation:
+
+We are highlighting the word abc:
+
+Letter heights are __a = 1, b = 3__  and __c = 1__. The tallest letter, b, is __3 mm__  high. The selection area for this word is __3 * 1 mm * 3 mm = 9 (mm)^2__.
+
+Note: Recall that the width of each character is __1 mm__.
 
 ## SOLUTION IN KOTLIN
 
 ```kotlin
-fun main(args: Array<String>) {
-    val scan = Scanner(System.`in`)
-    val regex = "[a-zA-Z0-9._-]+@gmail.com".toRegex()
-    val N = scan.nextLine().trim().toInt()
-    val list  = mutableListOf<String>()
+fun designerPdfViewer(h: Array<Int>, word: String): Int {
+    val asOfA = 'a'.toLong()
+    var maxWeight = 0
 
-    for (NItr in 1..N) {
-        val firstNameEmailID = scan.nextLine().split(" ")
-
-        val firstName = firstNameEmailID[0]
-
-        val emailID = firstNameEmailID[1]
-
-        if (regex.matches(emailID)){
-            list.add(firstName)
-        }
+    for (c in word) {
+        val diff = c.toLong() - asOfA
+        if (h[(diff).toInt()] > maxWeight)
+            maxWeight = h[(diff).toInt()]
     }
-    list.sort()
-    list.forEach(::println)
+    return maxWeight*(word.length)
 }
 ```
