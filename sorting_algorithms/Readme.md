@@ -1,6 +1,6 @@
 # Sorting Algorithms
 
-Link for Visualize : https://visualgo.net/bn/sorting
+Link for visualize : https://visualgo.net/bn/sorting
 
 Implementations in ```Kotlin ```
 
