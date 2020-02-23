@@ -1,6 +1,6 @@
 # Cats and a Mouse
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
 

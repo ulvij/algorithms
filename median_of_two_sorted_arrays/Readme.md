@@ -1,6 +1,6 @@
 # Median of Two Sorted Arrays
 
-**Dificulty** : Hard
+**Difficulty** : Hard
 
 **Link** : https://leetcode.com/problems/median-of-two-sorted-arrays/
 

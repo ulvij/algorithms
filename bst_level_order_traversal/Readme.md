@@ -1,6 +1,6 @@
 # BST Level-Order Traversal
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/30-binary-trees/problem
 

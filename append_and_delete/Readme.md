@@ -1,6 +1,6 @@
 # Append and Delete
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/append-and-delete/problem
 

@@ -1,6 +1,6 @@
 # Testing
       
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/30-testing/problem
 

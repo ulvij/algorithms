@@ -1,6 +1,6 @@
 # Container With Most Water
 
-__Dificulty__ : Medium
+__Difficulty__ : Medium
 
 __Link__ : https://leetcode.com/problems/container-with-most-water/
 

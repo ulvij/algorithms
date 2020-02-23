@@ -1,6 +1,6 @@
 # Longest Palindromic Substring
 
-__Dificulty__ : Medium
+__Difficulty__ : Medium
 
 __Link__ : https://leetcode.com/problems/longest-palindromic-substring/
 

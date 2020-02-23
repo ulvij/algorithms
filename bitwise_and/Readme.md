@@ -1,6 +1,6 @@
 # Bitwise AND
       
-**Dificulty** : Medium
+**Difficulty** : Medium
 
 **Link** : https://www.hackerrank.com/challenges/30-bitwise-and/problem
 

@@ -1,6 +1,6 @@
 # Picking Numbers
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/picking-numbers/problem
 

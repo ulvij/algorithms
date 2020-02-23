@@ -1,6 +1,6 @@
 # Climbing the Leaderboard
 
-**Dificulty** : Medium
+**Difficulty** : Medium
 
 **Link** : https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
 

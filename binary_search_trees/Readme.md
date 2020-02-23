@@ -1,6 +1,6 @@
 # Binary Search Trees
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/30-binary-search-trees/problem
 

@@ -1,6 +1,6 @@
 # Reverse Integer
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://leetcode.com/problems/reverse-integer/
 

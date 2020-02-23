@@ -1,6 +1,6 @@
 # Arrays: Left Rotation
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
 

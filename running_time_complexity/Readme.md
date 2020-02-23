@@ -1,6 +1,6 @@
 # Running Time and Complexity
       
-**Dificulty** : Medium
+**Difficulty** : Medium
 
 **Link** : https://www.hackerrank.com/challenges/30-running-time-and-complexity/problem
 

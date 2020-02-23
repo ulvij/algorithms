@@ -1,6 +1,6 @@
 # Maximum Subarray 
 
-__Dificulty__ : Easy
+__Difficulty__ : Easy
 
 __Link__ : https://leetcode.com/problems/maximum-subarray/
 

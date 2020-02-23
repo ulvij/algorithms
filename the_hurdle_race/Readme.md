@@ -1,6 +1,6 @@
 # The Hurdle Race
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/the-hurdle-race/problem
 

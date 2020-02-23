@@ -1,6 +1,6 @@
 # Designer PDF Viewer
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
 

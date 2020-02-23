@@ -1,6 +1,6 @@
 # Implement Queue using Stacks
 
-**Dificulty** : Easy
+**Difficulty** : Easy
 
 **Link** : https://leetcode.com/problems/implement-queue-using-stacks/
 
